@@ -1,0 +1,20 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+# Local configuration and secrets
+.env*
+!.env.example
+# Tool caches and generated files
+.sites-runtime/
+.cache/
+.npm/
+coverage/
+*.tsbuildinfo
+*.log
+.DS_Store
+Thumbs.db
+# Delivery archives and temporary QA material
+entrega/
+qa/
+*.zip
