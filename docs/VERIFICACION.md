@@ -56,6 +56,6 @@ El ZIP nuevo tiene la carpeta raíz `daniel-alejandro-portfolio/`. Incluye códi
 
 La búsqueda global en archivos propios, configuración, documentación y nombres de recursos no encontró referencias a la identidad anterior ni a sus iniciales y rutas. No se modificaron dependencias de terceros para efectuar sustituciones.
 
-La carpeta recuperada no contenía historial Git: `git status` indicó que no era un repositorio. **No se creó ningún commit, no se hizo push y no se publicó ni desplegó el sitio.** La vista previa temporal quedó detenida. El ZIP original permanece intacto.
+La carpeta recuperada no contenía historial Git: `git status` indicó que no era un repositorio. > Nota histórica: este informe se generó inicialmente antes de la publicación. Posteriormente, el repositorio se subió a GitHub y el commit `91969c3` incorporó el despliegue mediante GitHub Actions. Los trabajos `Build` y `Deploy` finalizaron correctamente. La vista previa temporal quedó detenida. El ZIP original permanece intacto.
 
 Capturas incluidas: `daniel-alejandro-escritorio.jpg` (1348 × 6449) y `daniel-alejandro-movil.jpg` (390 × 11120), disponibles también en `docs/capturas/` dentro del proyecto.

@@ -19,7 +19,7 @@ Implementado:
 
 Pendiente: GitHub, LinkedIn, correo profesional, CV real, URLs de repositorios y demos, imágenes reales de proyectos, títulos/fechas/identificadores/URLs e imágenes/PDF de certificados, y fechas exactas de educación. Las portadas de código son ilustraciones conceptuales, no capturas de aplicaciones. No hay experiencia laboral formal declarada. Edad, semestre e idiomas describen la información suministrada al actualizar el perfil y deben revisarse con el tiempo.
 
-Consulta `docs/VERIFICACION.md` para los resultados y límites de la revisión. Esta entrega no se ha publicado ni enviado a GitHub.
+Consulta `docs/VERIFICACION.md` para los resultados y límites de la revisión. El código está disponible en [GitHub](https://github.com/DanielSolartel/daniel-alejandro-portfolio) y la versión actual está publicada en [GitHub Pages](https://danielsolartel.github.io/daniel-alejandro-portfolio/).
 
 ## Instalación en Windows
 
@@ -103,11 +103,11 @@ Si ya existe un repositorio, conserva su historial y empieza con `git status`. S
 git commit -m "feat: personaliza el portafolio de Daniel Alejandro"
 ```
 
-Después crea el repositorio en tu cuenta y sigue las instrucciones de GitHub para conectarlo y subirlo. No se ha hecho ningún commit ni push como parte de esta entrega. No se ha elegido una licencia: puedes añadirla cuando decidas sus términos.
+Después crea el repositorio en tu cuenta y sigue las instrucciones de GitHub para conectarlo y subirlo.El repositorio está inicializado, conectado a GitHub y utiliza la rama principal `main`. No se ha elegido una licencia: puedes añadirla cuando decidas sus términos.
 
 ## Publicarlo posteriormente
 
-No se ha desplegado esta versión. Cuando decidas hacerlo:
+La versión actual se despliega automáticamente en GitHub Pages mediante GitHub Actions. Cuando decidas hacerlo:
 
 1. Completa o revisa los datos pendientes y verifica el contenido que quieres hacer público.
 2. Ejecuta las verificaciones y `npm run build`.
