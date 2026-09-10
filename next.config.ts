@@ -1,8 +1,25 @@
 import type { NextConfig } from "next";
-const config: NextConfig = {
+
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
+const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "";
+const isUserOrOrganizationPage = repositoryName.endsWith(".github.io");
+
+const basePath =
+  isGitHubPages && repositoryName && !isUserOrOrganizationPage
+    ? `/${repositoryName}`
+    : "";
+
+const nextConfig: NextConfig = {
   output: "export",
-  images: { unoptimized: true },
-  devIndicators: false,
+  basePath,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
+  images: {
+    unoptimized: true,
+  },
   allowedDevOrigins: ["terminal.local"],
+  devIndicators: false,
 };
-export default config;
+
+export default nextConfig;

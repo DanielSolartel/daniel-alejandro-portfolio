@@ -67,7 +67,10 @@ export const portfolio: Portfolio = {
     {name:"Exploración técnica",description:"Páginas web 3D y juegos de casino como futuros proyectos de programación y experimentación."},
   ],
   scene: {topLabel:"DS / EXPLORACIÓN DIGITAL",bottomLabel:"BACKEND · DATOS · POSIBILIDADES"},
-  links: {github:null,linkedin:null},
+    links: {
+    github: "https://github.com/DanielSolartel",
+    linkedin: null,
+  },
   contact: {email:null,message:"Me interesa conversar sobre proyectos, oportunidades de aprendizaje y desarrollo de software."},
   cv: {path:"/cv/daniel-solarte-cv.pdf",available:false},
   projects: [
