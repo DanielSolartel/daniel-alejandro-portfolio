@@ -78,7 +78,7 @@ export const portfolio: Portfolio = {
       id:"lottery-predictor", name:"Lottery Predictor", status:"En desarrollo",kind:"MVP personal",
       description:"MVP orientado al análisis histórico y a la posterior exploración de modelos predictivos para MiLoto, Baloto/Revancha y ColorLoto. Su arquitectura separa dominio, persistencia, API, estadística y Machine Learning.",
       technologies:["Python","FastAPI","HTMX","SQLAlchemy","Alembic","PostgreSQL","Docker","Docker Compose","pytest","Git"],
-      image:null,imageAlt:"Vista previa de Lottery Predictor",repository:null,demo:null,
+      image:null,imageAlt:"Vista previa de Lottery Predictor",repository:"https://github.com/DanielSolartel/loteria-predictor",demo:null,
       coverLines:['class LotteryPredictor:', '    dominio → persistencia → API', '    validación · datos · pruebas', '', '# MVP en desarrollo'],
       scope:["Dominio y entidades","Persistencia y migraciones","Repositorios y casos de uso","Validaciones y API","Registro e importación de sorteos","Pruebas automatizadas"],
       roadmap:["Estadística y análisis histórico","Feature engineering y Machine Learning","Comparación de modelos y visualizaciones","Estrategias de generación de combinaciones"],
