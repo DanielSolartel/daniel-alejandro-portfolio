@@ -69,7 +69,7 @@ export const portfolio: Portfolio = {
   scene: {topLabel:"DS / EXPLORACIÓN DIGITAL",bottomLabel:"BACKEND · DATOS · POSIBILIDADES"},
     links: {
     github: "https://github.com/DanielSolartel",
-    linkedin: null,
+    linkedin: "https://www.linkedin.com/in/daniel-solarte/",
   },
   contact: {email:null,message:"Me interesa conversar sobre proyectos, oportunidades de aprendizaje y desarrollo de software."},
   cv: {path:"/cv/daniel-solarte-cv.pdf",available:false},
